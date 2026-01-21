@@ -338,7 +338,7 @@ ${data.busType ? `*الباص:* ${data.busType}` : ''}
 
     setTimeout(() => {
         const encodedText = encodeURIComponent(text);
-        window.open(`https://wa.me/966500000000?text=${encodedText}`, '_blank');
+        window.open(`https://wa.me/966533919639?text=${encodedText}`, '_blank');
         this.showSuccess.set(false);
     }, 2000);
   }
