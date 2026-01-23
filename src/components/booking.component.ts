@@ -51,10 +51,8 @@ import { FormsModule, ReactiveFormsModule, FormBuilder, FormGroup, Validators, V
                   [class]="selectedType() === 'umrah' ? 'ring-2 ring-emerald-500 bg-emerald-50' : 'bg-white hover:bg-gray-50'"
                   class="p-6 border rounded-xl flex items-center gap-4 transition-all text-right">
                   <div class="w-16 h-16 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-600 shrink-0">
-                    <svg class="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                         <path d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z" stroke-linecap="round" stroke-linejoin="round"/>
-                         <path d="M12 7V17" stroke-linecap="round" stroke-linejoin="round"/>
-                         <path d="M8 12H16" stroke-linecap="round" stroke-linejoin="round"/>
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M3 7.5V19a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V7.5l-9-4-9 4Zm2 .618V18h14V8.118l-7-3.111-7 3.111Zm2 2.382h10v2H7v-2Zm0 4h10v2H7v-2Z"/>
                     </svg>
                   </div>
                   <div class="text-right w-full">
