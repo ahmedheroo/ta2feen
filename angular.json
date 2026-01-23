@@ -15,7 +15,9 @@
             "outputPath": "dist/app",
             "baseHref": "./",
             "assets": [
-              "assets"
+              "assets",
+              "robots.txt",
+              "sitemap.xml"
             ],
             "browser": "index.tsx",
             "tsConfig": "tsconfig.json"
